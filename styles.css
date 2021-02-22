@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    list-style: none;
+}
+.header{
+    background :black;
+    height : 50px;
+    width :100%;
+
+}
+.navbarA{
+    list-style: bold;
+    text-align : center;
+    color : white;
+    margin : 0;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+.gameFeatures{
+    color : red;
+    list-style: none;
+
+
+}
+
+.gamef{
+    text-align : center;
+    list-style: none;
+}
+
+.geniusword, .ranguess{
+    color: yellow;
+    list-style: bold;
+    text-align : center;
+}
+
+.howto, .playnow{
+    color: red;
+    text-align : center;
+
+}
+
+.howToPlayGame{
+    list-style: none;
+    text-align : center;
+}
+
+#number-guess, #result, #history {
+    width: 400px;
+    margin: 0 auto;
+    margin-left: 500px;
+
+}
+
+#history {
+    margin-top: 16px;
+    text-align : center;
+}
+
+.button1{
+    border-radius: 12px;
+    height: 30px;
+    background: green;
+    color: white;
+}
+
+.button2{
+    border-radius: 12px;
+    height: 30px;
+    background: red;
+    color: white;
+}
+
+.button1{
+    margin-top: 30px;
+    margin-left: 50%;
+}
+.button2{
+    margin-top: 30px;
+    margin-left: 50.5%;
+}
+
+/* 
+ *for small devices / screens
+ */
+@media screen and (max-width: 1200px){
+
+    .navbarA{
+        font-size: 12px;
+    }
+
+    #ran{
+        text-align : center;
+        font-size: 30px;
+    }
+
+    #ran2{
+        text-align : center;
+        font-size: 20px;
+    }
+
+    #number-guess, #result, #history {
+        width: 80%;
+        margin: 20px;
+        height: 30px;
+        margin-left:30px;
+        border-radius: 12px;
+    }
+
+      #result{
+        text-align: center;
+        font-size: 20px;
+        font-weight: italic;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    #history {
+        margin-top: 16px;
+    }
+
+    .playnow{
+        text-align : center;
+    }
+
+    .button1{
+        border-radius: 12px;
+        height: 30px;
+        background: green;
+        color: white;
+        margin-left: 100px;
+    }
+    
+    .button2{
+        border-radius: 12px;
+        height: 30px;
+        background: red;
+        color: white;
+        margin-left: 10px;
+    }
+
+    .gameFeatures{
+        text-align: center;
+    }
+
+    .howToPlayGame{
+        text-align: center;
+    }
+
+    .gamef{
+        margin-left: -20px;
+    }
+    
+    .howToPlayGame{
+        margin-left: -20px;
+    }
+    
+   
+
+    
+}
